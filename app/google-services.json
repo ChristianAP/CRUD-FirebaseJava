@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "668054565634",
+    "project_id": "crudfireja-e65af",
+    "storage_bucket": "crudfireja-e65af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668054565634:android:9109a9d53016e6b651881b",
+        "android_client_info": {
+          "package_name": "com.example.crudfireja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668054565634-nvkh3i84rkskghmi7irr5g2dh8adibbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4bAVm1_6WqGunA5r7FLSGGTDNilQGQRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668054565634-nvkh3i84rkskghmi7irr5g2dh8adibbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

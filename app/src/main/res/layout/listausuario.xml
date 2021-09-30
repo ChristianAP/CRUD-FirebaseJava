@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/lblNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOMBRES: "
+        android:textColor="@color/celeste"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblNombres"
+        android:paddingLeft="10dp"
+        android:text=" xxxxx "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/lblApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombres"
+        android:textColor="@color/celeste"
+        android:text="APELLIDOS: "
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombres"
+        android:layout_toRightOf="@+id/lblApellido"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:text=" xxxxx "
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/lblCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblApellido"
+        android:text="CORREO: "
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/celeste"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/correos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/apellidos"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@+id/lblCorreo"
+        android:paddingLeft="10dp"
+        android:text=" xxxxx "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/lblPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblCorreo"
+        android:layout_marginBottom="5dp"
+        android:text="PASSWORD: "
+        android:textColor="@color/celeste"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/passwords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblPassword"
+        android:layout_below="@id/correos"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:paddingLeft="10dp"
+
+        android:textColor="@color/black"
+        android:text=" xxxxx "/>
+
+</RelativeLayout>

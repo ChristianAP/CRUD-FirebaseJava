@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lineaEditar"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre"
+            android:inputType="text"
+            android:hint="Nombres"
+            android:paddingTop="10dp"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/apellido"
+            android:hint="Apellidos"
+            android:inputType="text"
+            android:paddingTop="10dp"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/correo"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:paddingTop="10dp"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/contraseña"
+            android:hint="Correo"
+            android:inputType="textPassword"
+            android:paddingTop="10dp"/>
+
+        <Button
+            android:id="@+id/cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="CANCELAR"
+            app:rippleColor="@color/purple_700"
+            app:strokeColor="@color/black" />
+
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"/>
+
+</LinearLayout>
